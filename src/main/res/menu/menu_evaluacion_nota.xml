@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+
+        android:enabled="true">
+
+        <item
+            android:id="@+id/nota"
+            android:title="Nota" />
+        <item
+            android:id="@+id/icono"
+            android:title="Icono" />
+        <item
+            android:id="@+id/comentario"
+            android:title="comentario" />
+
+    </group>
+
+
+</menu>

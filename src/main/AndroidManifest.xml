@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.consultoraestrategia.ss_crmeducativo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".CMRE"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity
+            android:name=".login.view.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".login.view.QrScanner"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TabsCursoDocente.view.activities.TabsCursoDocenteActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.light" />
+
+        <activity
+            android:name=".TabCursoAlumno.activities.TabsCursoAlumnoActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.light" />
+
+
+        <activity
+            android:name=".MainCursosDocente.view.activities.MainCursosDocenteActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_list_cursos"
+            android:theme="@style/AppTheme.light" />
+
+        <activity
+            android:name=".MainCursosAlumno.view.activities.MainCursosAlumnoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_list_cursos"
+            android:theme="@style/AppTheme.light" />
+    </application>
+
+</manifest>

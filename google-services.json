@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "997248203319",
+    "firebase_url": "https://crmeducativo-c7589.firebaseio.com",
+    "project_id": "crmeducativo-c7589",
+    "storage_bucket": "crmeducativo-c7589.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997248203319:android:204ab2b825587607",
+        "android_client_info": {
+          "package_name": "com.consultoraestrategia.ss_crmeducativo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997248203319-q3a96padg5pd9qo15662sbnjsni0g4oi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.consultoraestrategia.ss_crmeducativo",
+            "certificate_hash": "4a8ebe1de6cd672686b466bb0abbb0c3b712bd3a"
+          }
+        },
+        {
+          "client_id": "997248203319-f4a3839d1u29gg33oq6b9uuml13u0ems.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBvouoGVkz4PbI7224T3UpKZPhAEOBkQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997248203319-f4a3839d1u29gg33oq6b9uuml13u0ems.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+package com.consultoraestrategia.ss_crmeducativo.entities;
+
+import com.consultoraestrategia.ss_crmeducativo.lib.AppDatabase;
+import com.raizlabs.android.dbflow.annotation.Column;
+import com.raizlabs.android.dbflow.annotation.PrimaryKey;
+import com.raizlabs.android.dbflow.annotation.Table;
+import com.raizlabs.android.dbflow.structure.BaseModel;
+
+
+/**
+ * Created by irvinmarin on 23/03/2017.
+ */
+@Table(database = AppDatabase.class)
+public class PersonaGeoreferencia extends BaseModel {
+
+    @Column
+    @PrimaryKey(autoincrement = true)
+    private int personaId;
+
+    @Column
+    private int georeferenciaId;
+
+    public PersonaGeoreferencia() {
+    }
+
+    public PersonaGeoreferencia(int personaId, int georeferenciaId) {
+        this.personaId = personaId;
+        this.georeferenciaId = georeferenciaId;
+    }
+
+    public int getPersonaId() {
+        return personaId;
+    }
+
+    public void setPersonaId(int personaId) {
+        this.personaId = personaId;
+    }
+
+    public int getGeoreferenciaId() {
+        return georeferenciaId;
+    }
+
+    public void setGeoreferenciaId(int georeferenciaId) {
+        this.georeferenciaId = georeferenciaId;
+    }
+
+    @Override
+    public String toString() {
+        return "PersonaGeoreferencia{" +
+                "personaId=" + personaId +
+                ", georeferenciaId=" + georeferenciaId +
+                '}';
+    }
+}
